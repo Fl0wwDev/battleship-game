@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous contacter</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    <!-- icon site -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/logo.png">
+</head>
+<body>
+    <div>
+        <!-- Barre de navigation -->
+        <nav>
+            <ul>
+                <li><img src="../images/menu.png" alt="Logo du site"></li>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../manuel/regles/index.html">Règle du jeu</a></li>
+                <li><a href="../manuel/histoire/index.html">Histoire du jeu</a></li>
+                <li><a href="../manuel/conception/index.html">Conception du jeu</a></li>
+                <li><a href="../télécharger/index.html">Télécharger</a></li>
+            </ul>
+        </nav>
+        <!-- Fin de la barre de navigation-->
+    </div>
+
+    <header>
+        <h1>Formulaire de contact</h1>
+    </header>
+
+    <main class="contact">
+        <h2>Une suggestion ? Un avis ? Contactez-nous avec ce formulaire :</h2>
+
+        <img class="mail" src="/Images/mail.png" alt="">
+
+        <form method=post action="mailto:mafradin@hotmail.fr">
+
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="naissance">Votre date de naissance :</label>
+            <input type="date" id="naissance" name="naissance">
+
+            <label for="objet">Objet du message :</label>
+            <input type="text" id="objet" name="objet" required>
+
+            <label for="message">Votre message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        <p><a href="mentions-legales/index.html">Mentions légales</a></p>
+        <p class="copyright">Réalisé par Mahé Fradin - Copyright 2022</p>
+        <p><a href="index.html">Nous contacter</a></p>
+    </footer>
+</body>
+
+</html>
